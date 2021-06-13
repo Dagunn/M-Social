@@ -684,7 +684,7 @@ body {
 }
 
 @media screen and (max-width: 640px) {
-  .products__inner {
+  .descriptions__inner {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -693,7 +693,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
-  .product__item:not(:last-child) {
+  .description__item:not(:last-child) {
     margin-right: 0;
     margin-bottom: 50px;
   }
@@ -748,7 +748,7 @@ body {
   .slider__img {
     width: 95%;
   }
-  .products {
+  .descriptions {
     padding-top: 50px;
   }
 }
